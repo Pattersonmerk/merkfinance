@@ -1,0 +1,8 @@
+Django>=5.0
+gunicorn
+djangorestframework
+psycopg2-binary
+whitenoise
+dj-database-url
+django-cors-headers
+whitenoise

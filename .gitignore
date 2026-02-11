@@ -1,0 +1,6 @@
+venv/ 
+backend/db.sqlite3 
+frontend/myapp/node_modules/ 
+*.log 
+__pycache__/ 
+.env 

@@ -1,0 +1,108 @@
+/* ContactUs.css - Full Updated Version */
+
+.contact-page {
+  max-width: 900px;                 /* larger container */
+  margin: 20px auto 60px auto;      /* closer to navbar, bottom margin for spacing */
+  padding: 60px 70px;               /* spacious padding inside the form */
+  background: #075E54;              /* WhatsApp teal-green */
+  border-radius: 12px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-page h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 16px;
+  border-bottom: 4px solid #25D366; /* WhatsApp light green underline */
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.contact-page p, .contact-page label {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.contact-page p.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-page p.contact-info a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.contact-page p.contact-info a:hover {
+  color: #25D366;
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;             /* space between fields */
+  width: 100%;
+}
+
+.contact-page input,
+.contact-page textarea {
+  width: 100%;
+  padding: 20px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.contact-page input {
+  height: 60px;
+}
+
+.contact-page textarea {
+  min-height: 180px;
+}
+
+.contact-page button {
+  background-color: #25D366;  /* WhatsApp light green */
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 22px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-page button:hover {
+  background-color: #1ebe5a;  /* slightly darker on hover */
+}
+
+.confirmation {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.confirmation h3 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.confirmation p {
+  font-size: 1.25rem;
+}
+
+/* WhatsApp logo (if used via react-icons or image) */
+.whatsapp-logo-icon {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+a[href*="wa.me"]:hover .whatsapp-logo-icon {
+  opacity: 0.8;
+  cursor: pointer;
+}
