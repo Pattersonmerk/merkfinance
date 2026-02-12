@@ -19,6 +19,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "backend-myapp-p964.onrender.com",
     "merkfinancescontact.onrender.com",
+    "merkfinance.onrender.com",
 ]
 
 # --- Commented out CSRF trusted origins to avoid blocking frontend ---
